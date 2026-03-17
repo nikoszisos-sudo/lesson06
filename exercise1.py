@@ -8,5 +8,9 @@ for i in range(1, 11, 1):
 print(my_list)
 my_tuple = tuple(my_list)
 print(my_tuple)
+my_list.sort()
 my_tuple2 = tuple(my_list)
-print(my_tuple2.sort)
+print(my_tuple2)
+squared_list = [x**2 for x in my_tuple2]
+squared_tuple = tuple(squared_list)
+print(squared_tuple)
