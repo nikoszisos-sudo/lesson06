@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39d6c0e5-a1fa-42fe-b405-f4af2afd0baf" name="Changes" comment="ok">
-      <change afterPath="$PROJECT_DIR$/exercice2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,26 +44,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.brain.damage.executor": "Run",
-    "Python.conversions.executor": "Run",
-    "Python.copy_lists.executor": "Run",
-    "Python.copy_lists_problem.executor": "Run",
-    "Python.exercice2.executor": "Run",
-    "Python.exercise1.executor": "Run",
-    "Python.sequence.ops.executor": "Run",
-    "Python.tuples.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.brain.damage.executor&quot;: &quot;Run&quot;,
+    &quot;Python.conversions.executor&quot;: &quot;Run&quot;,
+    &quot;Python.copy_lists.executor&quot;: &quot;Run&quot;,
+    &quot;Python.copy_lists_problem.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exercice2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exercise1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exercise3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sequence.ops.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tuples.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Python.exercice2">
+}</component>
+  <component name="RunManager" selected="Python.exercise3">
     <configuration name="exercice2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lesson06" />
       <option name="ENV_FILES" value="" />
@@ -110,8 +111,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="exercise3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lesson06" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercise3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.exercise3" />
         <item itemvalue="Python.exercice2" />
         <item itemvalue="Python.exercise1" />
       </list>
@@ -252,7 +277,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773945198724</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="ok">
+      <option name="closed" value="true" />
+      <created>1773946577686</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1773946577686</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
