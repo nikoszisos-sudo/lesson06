@@ -1,9 +1,10 @@
 N = int(input("Δώσε ένα πρώτο αριθμό: "))
 while N <= 1:
     N = int(input("Προσοχή. Πρέπει να είναι μεγαλύτερος απο το 1: "))
-    for i in range(N):
-        if (N % N == 0 and N % 1 == 0 and N % 2 !=0 and N % (i+1) !=0) or (N == 2):
-            print("Σωστά! Είναι πρώτος.")
+for i in range(2, N):
+    if N % i == 0:
+     print("Δεν είναι πρώτος.")
+     break
 else:
-    print("Δεν είναι πρώτος.")
+    print("Είναι πρώτος.")
 
