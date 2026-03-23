@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39d6c0e5-a1fa-42fe-b405-f4af2afd0baf" name="Changes" comment="ok">
-      <change afterPath="$PROJECT_DIR$/comprehensions1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comprehensions3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +50,8 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.brain.damage.executor": "Run",
     "Python.comprehensions1.executor": "Run",
+    "Python.comprehensions2.executor": "Run",
+    "Python.comprehensions3.executor": "Run",
     "Python.conversions.executor": "Run",
     "Python.copy_lists.executor": "Run",
     "Python.copy_lists_problem.executor": "Run",
@@ -66,7 +68,7 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.comprehensions1">
+  <component name="RunManager" selected="Python.comprehensions3">
     <configuration name="comprehensions1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lesson06" />
       <option name="ENV_FILES" value="" />
@@ -90,7 +92,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="exercice2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="comprehensions2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lesson06" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -104,7 +106,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercice2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/comprehensions2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -113,7 +115,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="exercise1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="comprehensions3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lesson06" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -127,7 +129,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercise1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/comprehensions3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -184,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.comprehensions1" />
+        <item itemvalue="Python.comprehensions3" />
+        <item itemvalue="Python.comprehensions2" />
         <item itemvalue="Python.exercise4" />
+        <item itemvalue="Python.comprehensions1" />
         <item itemvalue="Python.exercise3" />
-        <item itemvalue="Python.exercice2" />
-        <item itemvalue="Python.exercise1" />
       </list>
     </recent_temporary>
   </component>
@@ -375,7 +377,23 @@
       <option name="project" value="LOCAL" />
       <updated>1774269570421</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="ok">
+      <option name="closed" value="true" />
+      <created>1774285287153</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1774285287153</updated>
+    </task>
+    <task id="LOCAL-00023" summary="ok">
+      <option name="closed" value="true" />
+      <created>1774287364259</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1774287364259</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -389,6 +407,11 @@
           <url>file://$PROJECT_DIR$/main.py</url>
           <line>8</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/comprehensions2.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
