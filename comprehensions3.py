@@ -6,5 +6,5 @@ for number in range(0, 9):
        my_list.append(number/2)
 print(my_list)
 
-my_list = [number if number % 2 == 0 else (number/2) for number in range(0, 9)]
+my_list = [number if number % 2 == 0 else number/2 for number in range(0, 9)]
 print(my_list)
