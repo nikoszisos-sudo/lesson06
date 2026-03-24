@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39d6c0e5-a1fa-42fe-b405-f4af2afd0baf" name="Changes" comment="ok">
+      <change afterPath="$PROJECT_DIR$/array2d.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comprehensions3.py" beforeDir="false" afterPath="$PROJECT_DIR$/comprehensions3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +48,7 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.array2d.executor": "Run",
     "Python.brain.damage.executor": "Run",
     "Python.comprehensions1.executor": "Run",
     "Python.comprehensions2.executor": "Run",
@@ -69,8 +70,8 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.comprehensions3">
-    <configuration name="comprehensions1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.array2d">
+    <configuration name="array2d" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lesson06" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -84,7 +85,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/comprehensions1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array2d.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -187,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.array2d" />
         <item itemvalue="Python.comprehensions3" />
         <item itemvalue="Python.comprehensions4" />
         <item itemvalue="Python.comprehensions2" />
         <item itemvalue="Python.exercise4" />
-        <item itemvalue="Python.comprehensions1" />
       </list>
     </recent_temporary>
   </component>
@@ -410,7 +411,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774288813121</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="ok">
+      <option name="closed" value="true" />
+      <created>1774375168733</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1774375168733</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
