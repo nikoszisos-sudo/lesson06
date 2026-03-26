@@ -18,13 +18,8 @@ while active_game:
             print("_", end=" ")
         elif cards_state[position] == "opened":
             print(hidden_cards[position], end=" ")
-        else
-            print(cards_state[position], end=" ")
-
-
-
-
-
+        else:
+            print(hidden_cards[position], end=" ")
 
 
     active_game = False
