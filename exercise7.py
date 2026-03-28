@@ -2,6 +2,8 @@ hidden_cards = [1,2,3,3,2,4,1,4]
 N = 8
 cards_state = ["closed", "closed", "closed", "closed", "closed", "closed", "closed", "closed"]
 
+#βαζω σ'ενα πινακα 8 αριθμους, μια μεταβλητη Ν=8 και ενα πινακα με 8 τιμες στρινγκ ολες με κατασταση κλειστη
+
 active_game = True
 while active_game:
     card1 = int(input("Pick first card (from 0-7): "))
@@ -12,6 +14,11 @@ while active_game:
         card2 = int(input("Out of bounds or card opened or already opened! Pick second card (from 0-7): "))
     cards_state[card1] = "temp_opened"
     cards_state[card2] = "temp_opened"
+
+# οριζω ολο τον κωδικα μεσα σε μια boolean=true. αμυντικος προγραμματισμος
+# για τα ορια μεταξυ 0 και 7 + οχι κατασταση opened + οχι 2 ιδιες καρτες
+# οι καρτες θα γινουν απο closed σε temp opened.
+
 
     for position in range(N):
         if cards_state[position] == "closed":
