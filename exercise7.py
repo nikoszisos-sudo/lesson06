@@ -2,6 +2,7 @@
 
 hidden_cards = [1,2,3,3,2,4,1,4]
 N = 8
+
 cards_state = ["closed", "closed", "closed", "closed", "closed", "closed", "closed", "closed"]
 
 # οριζω ολο τον κωδικα μεσα σε μια boolean=true. αμυντικος προγραμματισμος
@@ -9,6 +10,8 @@ cards_state = ["closed", "closed", "closed", "closed", "closed", "closed", "clos
 # οι καρτες θα γινουν απο closed σε temp opened.
 
 active_game = True
+found = 0
+score = 0
 while active_game:
     card1 = int(input("Pick first card (from 0-7): "))
     while card1 < 0 or card1 > 7 or cards_state[card1] == "opened":
@@ -20,7 +23,7 @@ while active_game:
     cards_state[card2] = "temp_opened"
 
     # για ολες τις 8 θεσεις (Ν=8) αν η θεση που εξεταζω στη λιστα cards_state
-
+    print()
     for position in range(N):
         if cards_state[position] == "closed":
             print("_", end=" ")
@@ -28,19 +31,32 @@ while active_game:
             print(hidden_cards[position], end=" ")
         else:
             print(hidden_cards[position], end=" ")
-
+    print()
 
 #αν η πρωτη με τη δευτερη καρτα ειναι ιδιες η κατασταση γινεται ανοιχτη αλλιως κλειστη
 
     if hidden_cards[card1] == hidden_cards[card2]:
         cards_state[card1] = "opened"
         cards_state[card2] = "opened"
+        found += 2
+        score += 1
+        print("Success!")
+        print("Score: " + str(score))
     else:
         cards_state[card1] = "closed"
         cards_state[card2] = "closed"
+        print("Failure!")
 
+    print()
+    for position in range(N):
+        if cards_state[position] == "closed":
+            print("_", end=" ")
+        elif cards_state[position] == "opened":
+            print(hidden_cards[position], end=" ")
+        else:
+            print(hidden_cards[position], end=" ")
+    print()
 
-
-
-
-    active_game = False
+    if found == N:
+        print ("Bravo! Game Over! Score = " + str(score))
+        active_game = False
