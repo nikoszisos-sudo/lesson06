@@ -1,8 +1,12 @@
+#βαζω μια λιστα με 8 αριθμους, μια μεταβλητη Ν=8 και μια λιστα με 8 τιμες στρινγκ ολες με κατασταση κλειστη
+
 hidden_cards = [1,2,3,3,2,4,1,4]
 N = 8
 cards_state = ["closed", "closed", "closed", "closed", "closed", "closed", "closed", "closed"]
 
-#βαζω μια λιστα με 8 αριθμους, μια μεταβλητη Ν=8 και μια λιστα με 8 τιμες στρινγκ ολες με κατασταση κλειστη
+# οριζω ολο τον κωδικα μεσα σε μια boolean=true. αμυντικος προγραμματισμος
+# για τα ορια μεταξυ 0 και 7 + οχι κατασταση opened + οχι 2 ιδιες καρτες
+# οι καρτες θα γινουν απο closed σε temp opened.
 
 active_game = True
 while active_game:
@@ -15,9 +19,7 @@ while active_game:
     cards_state[card1] = "temp_opened"
     cards_state[card2] = "temp_opened"
 
-# οριζω ολο τον κωδικα μεσα σε μια boolean=true. αμυντικος προγραμματισμος
-# για τα ορια μεταξυ 0 και 7 + οχι κατασταση opened + οχι 2 ιδιες καρτες
-# οι καρτες θα γινουν απο closed σε temp opened.
+    # για ολες τις 8 θεσεις (Ν=8) αν η θεση που εξεταζω στη λιστα cards_state
 
     for position in range(N):
         if cards_state[position] == "closed":
@@ -27,7 +29,9 @@ while active_game:
         else:
             print(hidden_cards[position], end=" ")
 
-#για ολες τις 8 θεσεις (Ν=8) αν η θεση που εξεταζω στη λιστα cards_state
+
+#αν η πρωτη με τη δευτερη καρτα ειναι ιδιες η κατασταση γινεται ανοιχτη αλλιως κλειστη
+
     if hidden_cards[card1] == hidden_cards[card2]:
         cards_state[card1] = "opened"
         cards_state[card2] = "opened"
