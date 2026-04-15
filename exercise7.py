@@ -14,11 +14,11 @@ found = 0
 score = 0
 while active_game:
     card1 = int(input("Pick first card (from 0-7): "))
-    while card1 < 0 or card1 > 7 or cards_state[card1] == "opened":
+    while card1 < 0 or card1 >=N or cards_state[card1] == "opened":
         card1 = int(input("Out of bounds or card opened! Pick first card (from 0-7): "))
     card2 = int(input("Pick second card (from 0-7): "))
-    while card2 < 0 or card2 > 7 or cards_state[card2] == "opened" or card2 == card1:
-        card2 = int(input("Out of bounds or card opened or already opened! Pick second card (from 0-7): "))
+    while card2 < 0 or card2 >=N or cards_state[card2] == "opened" or card2 == card1:
+        card2 = int(input("Out of bounds or card opened or you have picked the same position! Pick second card (from 0-7): "))
     cards_state[card1] = "temp_opened"
     cards_state[card2] = "temp_opened"
 
