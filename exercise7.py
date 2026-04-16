@@ -22,7 +22,8 @@ while active_game:
     cards_state[card1] = "temp_opened"
     cards_state[card2] = "temp_opened"
 
-    # για ολες τις 8 θεσεις αν η θεση που εξεταζω στη λιστα cards_state
+    # για ολες τις θεσεις αν η θεση που εξεταζω στη λιστα cards_state ειναι opened, closed ή temp_opened
+    # και εκτυπωση των στοιχειων απο τη λιστα των κρυφων καρτων
     print()
     for position in range(len(hidden_cards)):
         if cards_state[position] == "closed":
