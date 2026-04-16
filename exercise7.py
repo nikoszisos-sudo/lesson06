@@ -1,7 +1,7 @@
-#βαζω μια λιστα με 8 αριθμους, μια μεταβλητη Ν=8 και μια λιστα με 8 τιμες στρινγκ ολες με κατασταση κλειστη
+#βαζω μια λιστα με 8 αριθμους (μπερδεμενους, αλλα 4 ζευγαρια ιδια μεταξυ τους) και μια λιστα με 8 τιμες στρινγκ ολες με κατασταση κλειστη
 
 hidden_cards = [1,2,3,3,2,4,1,4]
-N = 8
+#N = 8
 
 cards_state = ["closed", "closed", "closed", "closed", "closed", "closed", "closed", "closed"]
 
@@ -14,17 +14,17 @@ found = 0
 score = 0
 while active_game:
     card1 = int(input("Pick first card (from 0-7): "))
-    while card1 < 0 or card1 >=N or cards_state[card1] == "opened":
+    while card1 < 0 or card1 >=len(hidden_cards) or cards_state[card1] == "opened":
         card1 = int(input("Out of bounds or card opened! Pick first card (from 0-7): "))
     card2 = int(input("Pick second card (from 0-7): "))
-    while card2 < 0 or card2 >=N or cards_state[card2] == "opened" or card2 == card1:
+    while card2 < 0 or card2 >=len(hidden_cards) or cards_state[card2] == "opened" or card2 == card1:
         card2 = int(input("Out of bounds or card opened or you have picked the same position! Pick second card (from 0-7): "))
     cards_state[card1] = "temp_opened"
     cards_state[card2] = "temp_opened"
 
-    # για ολες τις 8 θεσεις (Ν=8) αν η θεση που εξεταζω στη λιστα cards_state
+    # για ολες τις 8 θεσεις αν η θεση που εξεταζω στη λιστα cards_state
     print()
-    for position in range(N):
+    for position in range(len(hidden_cards)):
         if cards_state[position] == "closed":
             print("_", end=" ")
         elif cards_state[position] == "opened":
@@ -48,7 +48,7 @@ while active_game:
         print("Failure!")
 
     print()
-    for position in range(N):
+    for position in range(len(hidden_cards)):
         if cards_state[position] == "closed":
             print("_", end=" ")
         elif cards_state[position] == "opened":
@@ -57,6 +57,6 @@ while active_game:
             print(hidden_cards[position], end=" ")
     print()
 
-    if found == N:
+    if found == len(hidden_cards):
         print ("Bravo! Game Over! Score = " + str(score))
         active_game = False
